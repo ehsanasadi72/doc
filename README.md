@@ -9,4 +9,4 @@ Welcome to a curated collection of **cheatsheets** and **documentation** designe
 ## 🛠️ How to Use  
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/ehsanasadi72/tech-doc.git
+   git clone https://github.com/ehsanasadi72/tech-docs.git
