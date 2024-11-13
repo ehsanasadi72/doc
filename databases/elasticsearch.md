@@ -13,18 +13,22 @@
 
 An index in Elasticsearch is a group of related documents stored together. It's similar to a database in traditional systems. Each index can hold different types of data and comes with specific features to organize and search that data efficiently.
 
-#### Index Structure ==(coming soon)==
+#### Index Structure <span style="color: green"> (coming soon) </span>
+
 - Documents, 
 - Fields
 - Data Types
 - Mapping
 - Dynamic vs. Explicit Mapping.
-#### What's happening in creating an Index Querying and Aggregations ==(coming soon)==
+#### What's happening in creating an Index Querying and Aggregations  <span style="color: green"> (coming soon) </span>
 
 
-### 2. Sharding ==(coming soon)==
 
-### 3. Replication ==(coming soon)==
+### 2. Sharding <span style="color: green"> (coming soon) </span>
+
+
+### 3. Replication <span style="color: green"> (coming soon) </span>
+
 
 ### 4. Cluster node types
 
@@ -59,6 +63,7 @@ An index in Elasticsearch is a group of related documents stored together. It's 
 - #### Snapshot Lifecycle Management (SLM)
   in Elasticsearch helps you automatically manage backups of your data. You can set up policies to take regular snapshots of your indexes, store them in a specified location, and automatically delete old snapshots to save space. This way, you can easily restore your data if needed, without manual intervention.
   
-## 6. Fleet Architecture in Elasticsearch  ==(coming soon)==
+## 6. Fleet Architecture in Elasticsearch  <span style="color: green"> (coming soon) </span>
+
 
  
