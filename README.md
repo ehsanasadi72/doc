@@ -12,7 +12,7 @@ Welcome to a curated collection of **cheatsheets** and **documentation** designe
    git clone https://github.com/ehsanasadi72/tech-docs.git
 2. ``` Read a documents :) ```
 
-# Projects 
+# :hammer_and_wrench: Projects 
 - [x] **Elasticsearch architecture** 
 - [ ] **Kubernetes architecture**
 - [ ] **Ceph storage architecture**
