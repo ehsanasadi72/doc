@@ -13,7 +13,7 @@ Welcome to a curated collection of **cheatsheets** and **documentation** designe
 2. ``` Read a documents :) ```
 
 # ⚙️ Projects 
-- [x] **Elasticsearch architecture** ![](https://progress-bar.xyz/40/?style=flat)
+- [x] **Elasticsearch architecture** ![](https://progress-bar.xyz/40/?style=flat&scale=500)
 - [ ] **Kubernetes architecture**
 - [ ] **Ceph storage architecture**
 - [ ] **MiniIo Storage**
