@@ -11,8 +11,10 @@ Welcome to a curated collection of **cheatsheets** and **documentation** designe
    ```bash
    git clone https://github.com/ehsanasadi72/tech-docs.git
 2. ``` Read a documents :) ```
-import markdown
-md = markdown.Markdown(extensions=['pymdownx.progressbar'])
+   
+import ProgressBar
+ProgressBar.render(2, 3)
+
 # ⚙️ Projects 
 - [x] **Elasticsearch architecture** [=25%]{: .thin}
 - [ ] **Kubernetes architecture**
