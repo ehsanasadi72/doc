@@ -13,7 +13,7 @@ Welcome to a curated collection of **cheatsheets** and **documentation** designe
 2. ``` Read a documents :) ```
 
 # ⚙️ Projects 
-- [x] **Elasticsearch architecture** <p align = "center"> <progress max=100 value=40> </progress> 0% </p>
+- [x] **Elasticsearch architecture** <progress max=100 value=40> </progress>
 - [ ] **Kubernetes architecture**
 - [ ] **Ceph storage architecture**
 - [ ] **MiniIo Storage**
