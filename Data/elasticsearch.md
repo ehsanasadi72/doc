@@ -41,7 +41,7 @@ An index in Elasticsearch is a group of related documents stored together. It's 
 - **Coordinating Node:**
 	Acts as a gateway. It receives search and write requests from users and routes them to the appropriate nodes. Any node without a specific role automatically functions as a Coordinating Node.
 
- **Remote-eligible Node:**
+- **Remote-eligible Node:**
 	This node enables cross-cluster searches, allowing you to query data from other clusters without the need to copy or move it locally. It acts as a bridge between clusters, making it 	easier to access and analyze data stored elsewhere. This is especially useful when you have multiple clusters and want to run centralized searches across all of them.  
  
 - **Ingest Node:**
