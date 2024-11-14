@@ -20,7 +20,7 @@ IO.puts "Finally got the data: #{inspect data}"
 
 
 # ⚙️ Projects 
-- [x] **Elasticsearch architecture** [=25%]{: .thin}
+- [x] **Elasticsearch architecture** <p align = "center"> <progress max=100 value=0> </progress> 0% </p>
 - [ ] **Kubernetes architecture**
 - [ ] **Ceph storage architecture**
 - [ ] **MiniIo Storage**
