@@ -12,11 +12,12 @@ Welcome to a curated collection of **cheatsheets** and **documentation** designe
    git clone https://github.com/ehsanasadi72/tech-docs.git
 2. ``` Read a documents :) ```
 
-   
-  ProgressBar.render_indeterminate fn ->
-  # Do something for an indeterminate amount of time…
-  :timer.sleep 2000
+data = ProgressBar.render_indeterminate fn ->
+  ApiClient.painstakingly_retrieve_data
 end
+
+IO.puts "Finally got the data: #{inspect data}"
+
 
 # ⚙️ Projects 
 - [x] **Elasticsearch architecture** [=25%]{: .thin}
