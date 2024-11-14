@@ -77,7 +77,7 @@ Is designed for centralized management of agents (like Elastic Agent, Filebeat, 
 - **Fleet Server**: The central hub that agents connect to for management. It handles communication, configuration distribution, and status collectionfrom agents.
 - **Elastic Agent:** A multi-purpose software that can actas various beats (e.g., Filebeat, Metricbeat).Installed on servers and devices, it collects data.
 - **Fleet UI**: Located in Kibana, this user interface allows users to manage agents, create and edit configurations, and monitor the overall status of agents.
-- 
+  
 **Workflow:**
 1. Agents connect to the Fleet Server and collect data from various sources.
 2. Fleet Server receives configurations from the Fleet UI and sends them to the agents.
