@@ -10,9 +10,8 @@ Welcome to a curated collection of **cheatsheets** and **documentation** designe
 1. Clone the repo:  
    ```bash
    git clone https://github.com/ehsanasadi72/tech-docs.git
-2. ```bash Read a documents :) ```
+2. ``` Read a documents :) ```
 
-![50%]
 # Projects 
 - [x] **Elasticsearch architecture** 
 - [ ] **Kubernetes architecture**
