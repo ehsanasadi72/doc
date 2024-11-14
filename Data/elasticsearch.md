@@ -62,7 +62,7 @@ An index in Elasticsearch is a group of related documents stored together. It's 
 ### 5. Index Management
 
 - ####  Index Lifecycle Management (ILM)
-	1. **Hot:** In this phase, indexes are active, and both write and search operations are performed regularly.
+	1. :**Hot:** In this phase, indexes are active, and both write and search operations are performed regularly.
 	2. :**Warm::** In this phase, indexes are used less frequently and may be moved to nodes with fewer resources. Search operations are still possible, but no more data is written.
 	3. :**Cold:**: In this phase, indexes are rarely accessed. The data is compressed and moved to nodes with minimal resources to reduce storage costs.
 	4. :**Delete::** Finally, after a specified time, the indexes are no longer needed and are deleted to free up storage space.
@@ -71,7 +71,10 @@ An index in Elasticsearch is a group of related documents stored together. It's 
 - #### Snapshot Lifecycle Management (SLM)
   in Elasticsearch helps you automatically manage backups of your data. You can set up policies to take regular snapshots of your indexes, store them in a specified location, and automatically delete old snapshots to save space. This way, you can easily restore your data if needed, without manual intervention.
   
-## 6. Fleet Architecture in Elasticsearch  <span style="color: green"> (coming soon) </span>
-
-
- 
+## 6. Fleet Architecture in Elasticsearch 
+is designed for centralized management of agents (like
+Elastic Agent, Filebeat, and others). Here are the key
+**components**:
+- **Fleet Server**: The central hub that agents connect to for management. It handles communication, configuration distribution, and status collectionfrom agents.
+- **Elastic Agent:** A multi-purpose software that can actas various beats (e.g., Filebeat, Metricbeat).Installed on servers and devices, it collects data.
+- **Fleet UI**: Located in Kibana, this user interface allows users to manage agents, create and edit configurations, and monitor the overall status of agents.
