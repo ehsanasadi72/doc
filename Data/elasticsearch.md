@@ -36,11 +36,14 @@ An index in Elasticsearch is a group of related documents stored together. It's 
 	Responsible for managing the cluster’s overall state. It controls other nodes, assigns tasks, and monitors the cluster. Every cluster must have at least one master node, but usually, three are set up to prevent issues if one fails.
 
 - **Data Node:**
-	Handles storing and searching data. It saves data in shards and performs search and analysis operations. Having more data nodes increases storage capacity and improves search performance.
+	Responsible for storing and searching data. It saves data in shards and handles search and analysis tasks. Adding more Data Nodes increases storage capacity and improves search performance.
 
 - **Coordinating Node:**
-	Acts as a middleman, receiving search and write requests from users and distributing them to the appropriate nodes. If a node doesn’t have a specific role, it acts as a coordinating node by default.
+	Acts as a gateway. It receives search and write requests from users and routes them to the appropriate nodes. Any node without a specific role automatically functions as a Coordinating Node.
 
+ **Remote-eligible Node:**
+	This node enables cross-cluster searches, allowing you to query data from other clusters without the need to copy or move it locally. It acts as a bridge between clusters, making it 	easier to access and analyze data stored elsewhere. This is especially useful when you have multiple clusters and want to run centralized searches across all of them.  
+ 
 - **Ingest Node:**
 	Pre-processes data before it’s stored in Elasticsearch. For example, it can filter, transform, or process the data before indexing.
 
@@ -49,6 +52,12 @@ An index in Elasticsearch is a group of related documents stored together. It's 
 
 - **Machine Learning Node:**
     Processes machine learning tasks, usually for analyzing and making sense of the data.
+  
+-
+- **Transform Node:**
+    Responsible for running transform jobs, which pivot and summarize data into new indices. For example, it can aggregate logs into metrics or group data by certain fields to create summaries, like sales totals by region. By creating these transformed datasets, it makes complex analyses more efficient and allows for better insights. While any node can handle transform tasks, dedicating specific nodes helps balance the workload and improve cluster performance.
+
+
 
 
 ### 5. Index Management
