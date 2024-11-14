@@ -69,12 +69,16 @@ An index in Elasticsearch is a group of related documents stored together. It's 
     
 
 - #### Snapshot Lifecycle Management (SLM)
-  in Elasticsearch helps you automatically manage backups of your data. You can set up policies to take regular snapshots of your indexes, store them in a specified location, and automatically delete old snapshots to save space. This way, you can easily restore your data if needed, without manual intervention.
+	in Elasticsearch helps you automatically manage backups of your data. You can set up policies to take regular snapshots of your indexes, store them in a specified location, and automatically delete old snapshots to save space. This way, you can easily restore your data if needed, without manual intervention.
   
 ## 6. Fleet Architecture in Elasticsearch 
-is designed for centralized management of agents (like
-Elastic Agent, Filebeat, and others). Here are the key
-**components**:
+Is designed for centralized management of agents (like Elastic Agent, Filebeat, and others). Here are the key
+**Components**:
 - **Fleet Server**: The central hub that agents connect to for management. It handles communication, configuration distribution, and status collectionfrom agents.
 - **Elastic Agent:** A multi-purpose software that can actas various beats (e.g., Filebeat, Metricbeat).Installed on servers and devices, it collects data.
 - **Fleet UI**: Located in Kibana, this user interface allows users to manage agents, create and edit configurations, and monitor the overall status of agents.
+- 
+**Workflow:**
+1. Agents connect to the Fleet Server and collect data from various sources.
+2. Fleet Server receives configurations from the Fleet UI and sends them to the agents.
+3. The collected data is sent to Elasticsearch, where it can be visualized and analyzed in Kibana.
