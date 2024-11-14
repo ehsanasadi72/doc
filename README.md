@@ -12,15 +12,8 @@ Welcome to a curated collection of **cheatsheets** and **documentation** designe
    git clone https://github.com/ehsanasadi72/tech-docs.git
 2. ``` Read a documents :) ```
 
-data = ProgressBar.render_indeterminate fn ->
-  ApiClient.painstakingly_retrieve_data
-end
-
-IO.puts "Finally got the data: #{inspect data}"
-
-
 # ⚙️ Projects 
-- [x] **Elasticsearch architecture** <p align = "center"> <progress max=100 value=0> </progress> 0% </p>
+- [x] **Elasticsearch architecture** <p align = "center"> <progress max=100 value=40> </progress> 0% </p>
 - [ ] **Kubernetes architecture**
 - [ ] **Ceph storage architecture**
 - [ ] **MiniIo Storage**
