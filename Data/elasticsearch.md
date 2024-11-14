@@ -53,7 +53,6 @@ An index in Elasticsearch is a group of related documents stored together. It's 
 - **Machine Learning Node:**
     Processes machine learning tasks, usually for analyzing and making sense of the data.
   
--
 - **Transform Node:**
     Responsible for running transform jobs, which pivot and summarize data into new indices. For example, it can aggregate logs into metrics or group data by certain fields to create summaries, like sales totals by region. By creating these transformed datasets, it makes complex analyses more efficient and allows for better insights. While any node can handle transform tasks, dedicating specific nodes helps balance the workload and improve cluster performance.
 
