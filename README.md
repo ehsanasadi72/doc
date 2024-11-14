@@ -11,9 +11,12 @@ Welcome to a curated collection of **cheatsheets** and **documentation** designe
    ```bash
    git clone https://github.com/ehsanasadi72/tech-docs.git
 2. ``` Read a documents :) ```
+
    
-import ProgressBar
-ProgressBar.render(2, 3)
+  ProgressBar.render_indeterminate fn ->
+  # Do something for an indeterminate amount of time…
+  :timer.sleep 2000
+end
 
 # ⚙️ Projects 
 - [x] **Elasticsearch architecture** [=25%]{: .thin}
